@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cafe Aroma - F</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6f0;
+    color: #333;
+}
+header {
+    background-color: #b5651d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    background-color: #8b4513;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+footer {
+    background-color: #8b4513;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Cafe Aroma</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Menu</a></li>
+<li><a href="#">About</a></li>
+</ul>
+</nav>
+
+<div class="hero">
+<h2 style="font-family:'Lucida Console', monospace;color:#FF0000;">
+Fresh Coffee - Folder 6 (Server 3)
+</h2>
+</div>
+
+<main>
+<h3>Our Special Menu</h3>
+<p>Espresso - $3</p>
+<p>Cappuccino - $4</p>
+<p>Latte - $4.5</p>
+
+<h3>About Us</h3>
+<p>Welcome to Cafe Aroma! Unique code: <strong>ALB-F6-S3</strong></p>
+</main>
+
+<footer>
+© 2026 Cafe Aroma
+</footer>
+
+</body>
+</html>
